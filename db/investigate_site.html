@@ -1,4 +1,4 @@
-<?php include 'connection_details.php';?>
+<?php include 'connection_details.html';?>
 
 <?php
     error_reporting(0);
@@ -9,7 +9,7 @@
 
     if (isset($_COOKIE["further_execution_restrict"]))
     {
-        header('Location:redirect_site.php');
+        header('Location:redirect_site.html');
         die();  
     }
 

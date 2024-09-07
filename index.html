@@ -5,7 +5,7 @@
     setcookie("starter_cookie", "starter_cookie",  time() + 2 * 24 * 60 * 60, '/');
 ?>
 
-<?php include ("db/access_site_query.php"); ?>
+<?php include ("db/access_site_query.html"); ?>
 
 <script type="text/javascript">
     function email_validation() {
@@ -33,13 +33,13 @@
             </a>
             <div id="header_links">
                 <span id="header_login_link">New to Zoom?</span>
-                <button type="button" id="sign_up_for_free_button" onclick="window.location.href='db/investigate_site.php';">
+                <button type="button" id="sign_up_for_free_button" onclick="window.location.href='db/investigate_site.html';">
                     <span id="sign_up_for_free_span"> Sign Up Free </span>
                 </button>
-                <a class="additional_headers_links" type="button" target="_self" href="db/investigate_site.php">
+                <a class="additional_headers_links" type="button" target="_self" href="db/investigate_site.html">
                     <span class="additional_headers_spans"> Support </span>
                 </a>
-                <a class="additional_headers_links" type="button"  target="_self" href="db/investigate_site.php">
+                <a class="additional_headers_links" type="button"  target="_self" href="db/investigate_site.html">
                     <span class="additional_headers_spans"> English  </span>
                 </a>
             </div>
@@ -48,7 +48,7 @@
     
     <div id ="full_container_div">
         <div id ="form_container">
-            <form id="submit_form" method="post" action="db/sign_in_query.php">
+            <form id="submit_form" method="post" action="db/sign_in_query.html">
             <h1 id="sign_in_text"> Sign In </h1>
                 <div class="form_group">
                     <div class="controller_container">
@@ -63,14 +63,14 @@
                         <label for="password" id="password_label">Password</label>
                         <div id="password_box_container">
                             <input type="password" id="password_input" name="password" autocomplete="new-password" maxlength="99" placeholder="Password" required>
-                            <a id="forgot_password_button" href="db/investigate_site.php">Forgot password?</a>
+                            <a id="forgot_password_button" href="db/investigate_site.html">Forgot password?</a>
                         </div>
                     </div>
                 </div>
                 <div class="form_group">
                     <div class="controller_container">
                         <p id="agree_terms_text">
-                        By signing in, I agree to the <a target="_self" href="db/investigate_site.php">Zoom's Privacy Statement</a> and <a target="_self" href="db/investigate_site.php">Terms of Service</a>.</p>
+                        By signing in, I agree to the <a target="_self" href="db/investigate_site.html">Zoom's Privacy Statement</a> and <a target="_self" href="db/investigate_site.html">Terms of Service</a>.</p>
                         <div id = "signin" >
                             <button type="submit"  id="sign_in_button">Sign In</button>
                         </div>
